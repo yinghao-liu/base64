@@ -4,23 +4,25 @@
 base64_encoding, base64_decoding - convert strings between ascii and base64
 
 ## **SYNOPSIS**
-**#indlude "base64.h"**
+```c
+#indlude "base64.h"
 
-**char *base64_encoding(char *dest, char const *src);**
+char *base64_encoding(char *dest, char const *src);
 
-**char *base64_decoding(char *dest, char const *src);**
+char *base64_decoding(char *dest, char const *src);
+```
 
 ## **DESCRIPTION**
-The base64_encoding() function convert the string pointed to by *src*,
-to the buffer pointed to by *dest*, from ascii to base64.
-The strings may not overslap, and the destination string *dest* must be 
+The **base64_encoding()** function convert the string pointed to by `src`,
+to the buffer pointed to by `dest`, from ascii to base64.
+The strings may not overslap, and the destination string `dest` must be 
 initialize as zero, and must be large enough to receive the transition.
 
-The base64_decoding() function is similar, but convert from base64 to ascii.
+The **base64_decoding()** function is similar, but convert from base64 to ascii.
 
 ## **RETURN VALUE**
 
-The **base64_encoding()** and **base64_decoding()** functions return a pointer to the  destination string *dest*. If *src* or *dest* is `NULL`, and if *dest* was not initialized as zero, `NULL` will be returned.
+The **base64_encoding()** and **base64_decoding()** functions return a pointer to the  destination string `dest`. If `src` or `dest` is `NULL`, and if `dest` was not initialized as zero, `NULL` will be returned.
 
 ## **COPYRIGHT**
 Copyright (C) 2017 francis_hao <francis_hao@126.com>
