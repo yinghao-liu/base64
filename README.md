@@ -1,4 +1,4 @@
-# base64 encoding and decoding on c
+# :cn:base64 encoding and decoding on c
 
 ## **NAME**
 base64_encoding, base64_decoding - convert strings between ascii and base64
@@ -25,7 +25,7 @@ The **base64_decoding()** function is similar, but convert from base64 to ascii.
 The **base64_encoding()** and **base64_decoding()** functions return a pointer to the  destination string `dest`. If `src` or `dest` is `NULL`, and if `dest` was not initialized as zero, `NULL` will be returned.
 
 ## **COPYRIGHT**
-Copyright (C) 2017 francis_hao <francis_hao@126.com>
+Copyright (C) 2017 francis_hao \<francis_hao@126.com>
 
 This program is free software; you can redistribute it and/or modify 
 it under the terms of the GNU General Public License as published by 
@@ -40,6 +40,6 @@ NON INFRINGEMENT.  See [LICENSE] for more details.
 
 
 
-[LICENSE]:(LICENSE)
+[LICENSE]:LICENSE
 
 
