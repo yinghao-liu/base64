@@ -1,4 +1,4 @@
-# :cn:base64 encoder and decoder in c
+# base64 encoder and decoder in c
 
 ## **NAME**
 base64_encode, base64_decode - convert strings between ascii and base64
